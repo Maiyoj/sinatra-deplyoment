@@ -8,7 +8,7 @@ task :server do
     return
   end
 
-  ENV["PORT"] ||= "9292"
+  ENV["PORT"] ||= "5432"
   rackup = "rackup -p #{ENV['PORT']}"
 
   
