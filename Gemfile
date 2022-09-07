@@ -12,7 +12,7 @@ gem "sinatra-activerecord"
 gem "rake"
 gem "faker"
 gem "require_all"
-
+gem "pg"
 
 group :development do
   gem "pry"
@@ -21,8 +21,8 @@ end
 
 
 group :test do
-  gem "database_cleaner", "~> 2.0"
-  gem "rack-test", "~> 1.1"
-  gem "rspec", "~> 3.10"
-  gem "rspec-json_expectations", "~> 2.2"
+  gem "database_cleaner"
+  gem "rack-test"
+  gem "rspec"
+  gem "rspec-json_expectations"
 end

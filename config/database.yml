@@ -18,4 +18,5 @@ production:
   Database: dddncpok0ltj0a
   User: kpppigeoqkmiom
   Password: 1cc136771e34ba6d59397503542d69d8911379aaf424d83d274c389a0631cc4f
+  port: 5432
 
